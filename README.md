@@ -23,7 +23,7 @@ $$ I(x,y) = \int \int_{\text{source}} \left| E_{\text{img}}(x, y ; s_x, s_y) \ri
 
 For a single given source $(s_x, s_y)$, the incident wave plane tilts across the mask. The mask's diffracted spectrum passes through the objective pupil $P(f_x, f_y)$ to form the coherent image $E_{\text{img}}$:
 
-$$ E_{\text{img}}(x, y; s_x, s_y) = \mathcal{F}^{-1} \left\{ \mathcal{F} \Big\{ M(x, y) \cdot e^{i 2\pi (s_x x + s_y y)} \Big\} \cdot P(f_x, f_y) \right\} $$
+$$ E_{\text{img}}(x, y; s_x, s_y) = \mathcal{F}^{-1} \left\\{ \mathcal{F} \Big\\{ M(x, y) \cdot e^{i 2\pi (s_x x + s_y y)} \Big\\} \cdot P(f_x, f_y) \right\\} $$
 
 where:
 - $M(x, y)$ is the complex transmission function of the photomask.
